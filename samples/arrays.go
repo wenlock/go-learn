@@ -36,4 +36,6 @@ func main() {
 		}
 	}
 	fmt.Println("2d: ", twoD)
+	fmt.Println("2d lenth:", len(twoD))
+	fmt.Println("arr section length:", len(twoD[0]))
 }

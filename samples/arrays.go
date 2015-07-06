@@ -38,4 +38,14 @@ func main() {
 	fmt.Println("2d: ", twoD)
 	fmt.Println("2d lenth:", len(twoD))
 	fmt.Println("arr section length:", len(twoD[0]))
+
+	var threeD [2][2][2]int
+	fmt.Println("3d len:",len(threeD))
+
+	//var aa  = [3][3]int{{1,2,3},{4,5,6},{7,8,9}}
+
+	var aaa  = [3][3][3]int{{{1,2,3},{4,5,6},{7,8,9}},{{1,2,3},{4,5,6},{7,8,9}}}
+
+	fmt.Println("aaa:",aaa)
+
 }
